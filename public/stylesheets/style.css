@@ -1,0 +1,32 @@
+:root {
+    --primary: #75867b;
+	--secondary: #829c95;
+	--tertiary: #627a7a;
+	--light-dark: #706b78;
+	--dark: #56332a;
+	
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  body {
+	background-color: var(--primary);
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin: 0;
+  color: var(--dark);
+}
